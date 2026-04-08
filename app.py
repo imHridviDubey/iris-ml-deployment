@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 #LOAD MODEL
-model = pickle.load(open(r"C:\Users\Hridvi Dubey\IRISMLPROJECT\iris_model.pkl", "rb"))
+model = pickle.load(open(r"iris_model.pkl", "rb"))
 
 #TITLE
 st.title("IRIS FLOWER PREDICTION APP")
